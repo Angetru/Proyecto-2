@@ -1,3 +1,4 @@
+![Banner](./images/Banner_ppal.png)
 # Módulo 2 - Proyecto 2
 ## ¡Bienvenidos al proyecto "Sistema de votación"!
 
