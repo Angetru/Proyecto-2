@@ -5,9 +5,8 @@
 ## Tabla de Contenidos
 * [1. Desafío](#1-Desafío)
 * [2. Análisis](#2-Análisis)
-* [3. En desarrollo](#3-En-desarrollo)
-* [4. Código y explicaciones generales](#4-Código-y-explicaciones-generales)
-* [5. Conclusiones](#5-Conclusiones)
+* [3. Código y explicaciones generales](#4-Código-y-explicaciones-generales)
+* [4. Conclusiones](#5-Conclusiones)
 
 ****
 ## Desarrollo
@@ -24,28 +23,48 @@
   ****
   
 ### 2. Análisis
- En base al desafío planteado, se inicia el análisis y preparación del código considerando los conocimientos detallados en el punto anterior. Se selecciona la opción de desarrollo de programa POO, y se divide en bloques el desarrollo de código.
- 
+ En base al desafío planteado, se inicia el análisis y preparación del código considerando los conocimientos detallados en el punto anterior. Se selecciona la opción de desarrollo de programa en Programación Funcional (PF), debido a que gran parte de los ejercicios ejecutados fueron realizados en base a ese paradigma y es el más conocido en mi caso. 
 
 ****
 
-### 3. En desarrollo
- En desarrollo: 
+### 3. Código y explicaciones generales
+ El código fue dividido en bloques de sentencias para su desarrollo, con el fin de revisar los resultados e ir iterando hasta lograr su resultado esperado.
+ En primera instancia se procede con la función de crear una encuesta ("crearEncuesta") que considere pregunta y respuestas, como se muestra a continuación:
+ ![img funcion crearEncuesta](./images/Funcion_crearencuesta.png)
  
-****
+ Dentro de esa función se incluye un objeto que almacene resultados, el cual inicia con valor "0", en espera de recibir las respuestas. Posteriormente se agrega "return" para que devolvuelva un objeto conteniendo pregunta, respuestas y resultados. Adicionalmente se incluye una función de "votar" para registrar los votos de la encuesta.
 
-### 4. Código y explicaciones generales
+ Para que el usuario pueda ingresar encuestas, se habilita una función, considerando un número de preguntas como base, adicionalmente se le solicita al usuario que ingrese las respuestas posibles por separado. Para proceder con el registro de las respuestas, se agrega el método push para que permita modificar el array de "respuestas", agregando un nuevo elemento al final del mismo.
+ Posteriormente se utiliza la función de crearEncuesta para crear una encuesta, se verifica que esta función devuelva un objeto de encuesta válida, luego se agrega una encuesta nueva al arreglo de encuesta, y una vez realizado esto, se indica al usuario que está votando en la encuesta que está ingresando. Al final el bucle, se retornará el arreglo de "encuestas" con la data ingresada en las nuevas encuestas.
 
-En desarrollo:
-  *En desarrollo*
+ ![img funcion ingresarEncuesta](./images/Funcion_ingresaencuesta.png)
+
+ Se procede con la función de votar, con el fin de que los usuarios puedan seleccionar la respuesta, votando por una opción en la encuesta creada:
   
-  *En caso de agregar alguna imagen*![img extracto de codigol](./images/Prueba_resultado.png)
+  ![img funcion votarEncuesta](./images/Funcion_votarencuesta.png)
+
  
-*[Se incluye Link para visualización del Código](./C)*
+ Para poder ver los resultados, se presenta la función de "mostrarResultados" que permite visualizar, incluyendo el método for, las respuestas y votos realizados:
+ 
+  ![img funcion mostrarResultados](./images/Funcion_mostrarresultados.png)
+
+ Para finalizar, se declara una constante de "encuestas" para almacenar data y por último se deja la función para ingresar encuestas inicializada, como se muestra a continuación:
+
+  ![img final de codigo](./images/Final_codigo.png)
+
+  Al ejecutar el código se muestra de la siguiente forma:
+  
+  ![img final de codigo](./images/ejecucioninicial.png)
+
+  y resultados de las votaciones:
+
+![img extracto_votaciones](./images/Extractovotaciones.png)
+ 
+*[Se incluye Link para visualización del Código](./PF)*
   
   ****
   
   ### 5. Conclusiones
- *Durante la ejecución del programa, se dio inicio con una estructura básica por bloques, primero de definición de variables*
+ Durante la ejecución del programa, se dio inicio con una estructura básica por bloques, primero de definición de la función base de creación de encuesta..
 
   ****
