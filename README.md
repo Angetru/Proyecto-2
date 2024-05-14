@@ -36,7 +36,7 @@
  Dentro de esa función se incluye un objeto que almacene resultados, el cual inicia con valor "0", en espera de recibir las respuestas. Posteriormente se agrega "return" para que devolvuelva un objeto conteniendo pregunta, respuestas y resultados. Adicionalmente se incluye una función de "votar" para registrar los votos de la encuesta.
 
  Para que el usuario pueda ingresar encuestas, se habilita una función, considerando un número de preguntas como base mínimo, adicionalmente se le solicita al usuario que ingrese las respuestas posibles por separado. Para proceder con el registro de las respuestas, se agrega el método push para que permita modificar el array de "respuestas", agregando un nuevo elemento al final del mismo.
- Posteriormente se utiliza la función de crearEncuesta para crear una encuesta, se verifica que esta función devuelva un objeto de encuesta válida, luego se agrega una encuesta nueva al arreglo de encuesta, y una vez realizado esto, se indica al usuario que está votando en la encuesta que está ingresando. Al final el bucle, se retornará el arreglo de "encuestas" con la data ingresada en las nuevas encuestas.
+ Posteriormente se utiliza la función de crearEncuesta para crear una encuesta, luego se agrega una encuesta nueva al arreglo de encuesta, y una vez realizado esto, se indica al usuario que está votando en la encuesta que está ingresando. Al final el bucle, se retornará el arreglo de "encuestas" con la data ingresada en las nuevas encuestas.
 
  ![img funcion ingresarEncuesta](./images/Funcion_ingresaencuesta.png)
 
