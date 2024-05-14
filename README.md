@@ -67,4 +67,4 @@
   ### 5. Conclusiones
  Para la preparación del programa, se dio inicio con una estructura por bloques, que permitiera partir desde la base, en este caso fue por la definición de la función base de creación de encuesta, posterior a eso, se definieron arreglos, además de condiciones que permitieran la evolución del código, además de guardar variables y complejizar la estructura para permitir el ingreso de encuestas con un mínimo de preguntas, a su vez se enlazaron las funciones de votar en las encuestas y además que permitiera mostrar los resultados de las mismas. De lo anteior se debe mencionar que se realizaron varias revisiones del código, hasta lograr su ejecución.
   ****
-                                                                           *¡Gracias!*
+*¡Gracias!*
